@@ -1,0 +1,20 @@
+# Data files — never commit these
+*.xlsx
+*.xls
+*.csv
+*.json
+
+# Outputs
+outputs/
+dq_scorecard.xlsx
+profiling_summary.xlsx
+customer_dashboard.html
+
+# Python stuff
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.env
+
+# OS
+.DS_Store
